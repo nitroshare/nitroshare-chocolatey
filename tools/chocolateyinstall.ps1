@@ -1,14 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'nitroshare'
-$toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url         = 'https://launchpad.net/nitroshare/0.3/0.3.1/+download/nitroshare-0.3.1-windows-x86.exe'
 $url64       = 'https://launchpad.net/nitroshare/0.3/0.3.1/+download/nitroshare-0.3.1-windows-x86_64.exe'
 
 $packageArgs = @{
   packageName    = $packageName
-  unzipLocation  = $toolsDir
-  fileType       = 'EXE_MSI_OR_MSU'
+  fileType       = 'EXE'
   url            = $url
   url64bit       = $url64
 
