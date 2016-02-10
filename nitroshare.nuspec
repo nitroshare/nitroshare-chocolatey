@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>nitroshare</id>
-    <title>NitroShare (Install)</title>
+    <title>NitroShare</title>
     <version>0.3.1</version>
     <authors>Nathan Osman, Matthew Jump, Daniel San</authors>
     <owners>Nathan Osman</owners>
