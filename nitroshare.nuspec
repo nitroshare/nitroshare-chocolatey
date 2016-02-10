@@ -13,7 +13,7 @@
     <tags>nitroshare network admin</tags>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://i.stack.imgur.com/nViij.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/nitroshare/nitroshare-chocolatey/5535601e43d44a63f322081e076f03febe62c249/nitroshare.png</iconUrl>
   </metadata>
     <files>
       <file src="tools\**" target="tools" />
