@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nitroshare</id>
+    <title>NitroShare (Install)</title>
+    <version>0.3.1</version>
+    <authors>Nathan Osman, Matthew Jump, Daniel San</authors>
+    <owners>Nathan Osman</owners>
+    <summary>Cross-platform network file transfer application</summary>
+    <description>NitroShare is a cross-platform network file transfer application. Other devices on the network running the application are automatically discovered and files can easily be transferred directly to them.</description>
+    <projectUrl>https://nitroshare.net</projectUrl>
+    <tags>nitroshare network admin</tags>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://i.stack.imgur.com/nViij.png</iconUrl>
+  </metadata>
+    <files>
+      <file src="tools\**" target="tools" />
+    </files>
+</package>
