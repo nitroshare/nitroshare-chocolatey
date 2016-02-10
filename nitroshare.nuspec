@@ -15,7 +15,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/nitroshare/nitroshare-chocolatey/5535601e43d44a63f322081e076f03febe62c249/nitroshare.png</iconUrl>
   </metadata>
-    <files>
-      <file src="tools\**" target="tools" />
-    </files>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
