@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'nitroshare'
-$url         = 'https://launchpad.net/nitroshare/0.3/0.3.1/+download/nitroshare-0.3.1-windows-x86.exe'
-$url64       = 'https://launchpad.net/nitroshare/0.3/0.3.1/+download/nitroshare-0.3.1-windows-x86_64.exe'
+$url         = 'https://launchpad.net/nitroshare/0.3/0.3.3/+download/nitroshare-0.3.3-windows-x86.exe'
+$url64       = 'https://launchpad.net/nitroshare/0.3/0.3.3/+download/nitroshare-0.3.3-windows-x86_64.exe'
 
 $packageArgs = @{
   packageName    = $packageName
@@ -14,9 +14,9 @@ $packageArgs = @{
   validExitCodes = @(0)
 
   softwareName   = 'nitroshare*'
-  checksum       = 'c7812bdb6a34a0246bd12b9f17b51b6b'
+  checksum       = 'da536e80712348897651077967238888'
   checksumType   = 'md5'
-  checksum64     = '7c26afd95d6c3562d9aa7110379c18e5'
+  checksum64     = 'fb28ee896fc2461670c0d1c5b5304fe2'
   checksumType64 = 'md5'
 }
 

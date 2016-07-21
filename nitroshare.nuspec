@@ -4,7 +4,7 @@
   <metadata>
     <id>nitroshare</id>
     <title>NitroShare</title>
-    <version>0.3.1</version>
+    <version>0.3.3</version>
     <authors>Nathan Osman, Matthew Jump, Daniel San</authors>
     <owners>Nathan Osman</owners>
     <summary>Cross-platform network file transfer application</summary>
